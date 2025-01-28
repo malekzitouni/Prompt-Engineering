@@ -1,4 +1,6 @@
+Here is the updated README file content with the new information included:
 
+```markdown
 # Prompt-Engineering
 
 ## Table of Contents
@@ -52,6 +54,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 We would like to thank the contributors and the community for their support.
+
+## Additional Information
+In this course, we came up against some boundaries of LLM capabilities based on the limitations of the amount of tokens it can process.
+
+[Retrieval-Augmented Generation](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) (or RAG) allows an LLM to fetch relevant information from a large corpus of data (like a vector database, such as [FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss)), and formulate coherent responses based on that retrieved information. This allows the model to "look up" vast amounts of information without needing to remember it all in the immediate context (such as its prompt).
+
+RAG both largely eliminates the constraints placed on us in prompt engineering from token limits, and also provides a powerful mechanism to make the model aware of information that it may not have been initially trained on.
+
+At the time of writing this, the DLI is developing a comprehensive course on building RAG systems. Keep an eye on the DLI catalog for the release of this course towards the beginning of 2024.
 ```
 
 You can now update your README file with this content.

@@ -1,5 +1,4 @@
 
-
 # Prompt-Engineering
 
 ## Table of Contents
@@ -10,6 +9,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+- [Additional Information](#additional-information)
 
 ## Introduction
 Welcome to the Prompt-Engineering repository! This project aims to provide tools and techniques for effective prompt engineering, enhancing the interaction between users and AI models.
@@ -62,6 +62,8 @@ In this course, we came up against some boundaries of LLM capabilities based on 
 RAG both largely eliminates the constraints placed on us in prompt engineering from token limits, and also provides a powerful mechanism to make the model aware of information that it may not have been initially trained on.
 
 At the time of writing this, the DLI is developing a comprehensive course on building RAG systems. Keep an eye on the DLI catalog for the release of this course towards the beginning of 2024.
+
+[LangChain](https://python.langchain.com/docs/get_started/introduction) is a framework for developing applications powered by large language models. Free and open source, LangChain ships with an ever-increasing collection of modules and components for working with LLMs.
 ```
 
 You can now update your README file with this content.
